@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     public static final String weatherWeb = "https://api.darksky.net/forecast/";
     LocationManager locationManager;
     double longitudeNetwork, latitudeNetwork;
+    JSONObject jsonObject;
 
     static String convertStreamToString(java.io.InputStream is) {
         java.util.Scanner s = new java.util.Scanner(is).useDelimiter("\\A");
@@ -161,7 +162,7 @@ public class MainActivity extends AppCompatActivity {
 
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-        recyclerView.setAdapter(new ListAdapter(this, JSONObject));
+        recyclerView.setAdapter(new ListAdapter(this, jsonObject));
 
     }
 }
