@@ -1,0 +1,104 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/locationname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="LOCATION NAME"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <ImageView
+        android:id="@+id/weathericon"
+        android:layout_width="379dp"
+        android:layout_height="339dp"
+        android:src="@drawable/ic_cloud"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/maxtemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Max Temp:  "
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="491dp" />
+
+    <TextView
+        android:id="@+id/precipprob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Precipitation Probability: "
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+    <TextView
+        android:id="@+id/preciptype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Precipitation Type"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <TextView
+        android:id="@+id/preciptime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Precipitation Time"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Description:"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="370dp" />
+
+    <TextView
+        android:id="@+id/mintemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Min Temp:"
+        android:textColor="@android:color/background_light"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="470dp" />
+</android.support.constraint.ConstraintLayout>
